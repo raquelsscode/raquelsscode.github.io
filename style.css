@@ -1,3 +1,41 @@
-img {
-width: 200px;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Montserrat:wght@500&display=swap');
+
+
+.Meu-nome{
+    text-align: center;
 }
+
+#minha-foto { 
+width: 200px;
+float: left;
+height: 303px;
+padding: 10px;
+background-color: blueviolet;
+}
+
+h1, h2{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    color: white;
+}
+ #Descrição {
+     font-family:'Montserrat', sans-serif;
+     color: white;
+     position: absolute;
+     top: 40%;
+     right: 20%;
+ }
+p, ul{
+    color: white;
+}
+ body {
+     background-color: #040926;
+    
+ }
+
+.Image-Container {
+    height: 323px;
+    position: relative;
+
+}
+
